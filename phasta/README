@@ -1,0 +1,4 @@
+This directory replaces the 'phasta' directory in pumi_test_meshes.tar.gz.
+After extracting it rename it to 'phasta'.  The adapt.inp files are setup for
+use with the chefMpi branches as they use 'splitFactor' instead of numTotParts.
+Unused files were also removed from the directory.

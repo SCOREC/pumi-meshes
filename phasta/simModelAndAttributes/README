@@ -1,0 +1,5 @@
+/projects/tools/SCOREC.develop/build/test/simTranslate geom.xmt_txt modelGeom.smd translated.smd
+#simmetrix meshes generated on translated.smd
+/projects/tools/phastaChef/buildsim/core/test/convert translated.smd simTetMesh.sms mdsTetMesh.smb
+/projects/tools/phastaChef/buildsim/core/test/convert translated.smd simMixed.sms mdsMixed.smb
+mpirun -np 2 ./chefPhastaAdaptLoop 8 &> log & 

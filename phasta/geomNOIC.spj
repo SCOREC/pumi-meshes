@@ -1,0 +1,80 @@
+#
+# Diaph
+surf ID: 204 2 18
+#
+# Inflow
+comp3: 79 2 1 0 0 1
+#
+# Inflow
+scalar_1: 79 2 5.4e-5
+#
+# NoSlip+Diaphragms
+comp3: 204 2 0 1 0 0
+comp3: 149 2 0 1 0 0
+comp3: 192 2 0 1 0 0
+comp3: 196 2 0 1 0 0
+comp3: 200 2 0 1 0 0
+comp3: 188 2 0 1 0 0
+#
+# NoSlip+Diaphragms
+scalar_1: 204 2 0
+scalar_1: 149 2 0
+scalar_1: 192 2 0
+scalar_1: 196 2 0
+scalar_1: 200 2 0
+scalar_1: 188 2 0
+#
+#scalar_1: 13 1 0
+#
+# NoSlip
+surf ID: 149 2 5
+surf ID: 196 2 5
+surf ID: 192 2 5
+surf ID: 200 2 5
+surf ID: 188 2 5
+#
+# NoSlip
+turbulence wall: 149 2 0
+turbulence wall: 196 2 0
+turbulence wall: 192 2 0
+turbulence wall: 200 2 0
+turbulence wall: 188 2 0
+#
+# Outflow
+natural pressure: 83 2 0
+#
+# Outflow
+scalar_1 flux: 83 2 0
+#
+# Outflow
+traction vector: 83 2 0 0 0
+#
+# Side Walls
+comp1: 81 2 0 1 0 0
+comp1: 85 2 0 1 0 0
+#
+# Side Walls
+scalar_1 flux: 81 2 0
+scalar_1 flux: 85 2 0
+#
+# Side Walls
+traction vector: 81 2 0 0 0
+traction vector: 85 2 0 0 0
+#
+# Top Wall
+comp1: 43 2 0 0 1 0
+#
+# Top Wall
+scalar_1 flux: 43 2 0
+#
+# Top Wall
+traction vector: 43 2 0 0 0
+#
+# Initial Condition
+#initial pressure: 95 3 0.0
+#
+# Initial Condition
+#initial scalar_1: 95 3 5.4e-5
+#
+# Initial Condition
+#initial velocity: 95 3 0.0 0.0 1e-8

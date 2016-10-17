@@ -1,0 +1,18 @@
+timeStepNumber 0 
+ensa_dof 6
+attributeFileName ./translated.smd
+modelFileName ./translated.smd
+meshFileName ./mdsTetMesh.smb
+outMeshFileName bz2:mdsMesh2p/
+# restartFileName TO BE SPECIFIED 
+adaptFlag 0
+AdaptStrategy 7 
+RecursiveUR 1
+splitFactor 2
+elementsPerMigration 10000
+SolutionMigration 0
+DisplacementMigration 0
+Tetrahedronize 0
+partitionMethod graph
+dwalMigration 0
+buildMapping 1
