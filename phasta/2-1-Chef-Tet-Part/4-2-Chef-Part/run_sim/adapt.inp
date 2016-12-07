@@ -1,4 +1,3 @@
-globalP 1
 timeStepNumber 0 
 ensa_dof 6
 attributeFileName ../../../geom.spj
