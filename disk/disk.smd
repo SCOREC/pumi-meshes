@@ -1,0 +1,590 @@
+smi 5 0
+<part> smd 19
+parasolid 19 1
+*
+-1
+-0.10000000000000001 -0.10000000000000001 0
+0.10000000000000001 0.10000000000000001 0
+1 1007 5 0
+0 0 -0.10000000000000001 -0.10000000000000001 0
+0.10000000000000001 0.10000000000000001 0
+_sim_empty
+-1
+0 0 0 0
+
+0
+0 1 1 0
+0 0 0 0
+1
+1 5 9 -1 -1 
+9 1 5 0 1 0 1 -1 -1
+1 
+_sim_empty
+9 
+1 3.1415926535897931 -0.10000000000000001 1.2246467991473533e-17 0
+1 6 5 1 0 2
+1 9 1 1 2 6 5 0 0 1
+1 9 1 0 5 2 5 0 2 0
+1 1 
+
+  1 2 
+
+0
+_sim_empty
+5 
+1 -0.037538960564294344 0.04403460094762715 -0.037538960564294344 0.04403460094762715 0
+0
+0 -1
+2 8 1 2
+5 0 5 1 1 3 8 0 303 0 1 
+2 
+0
+0
+_sim_empty
+-1
+0
+0 -1
+0 -1
+0 -1
+<part> auxmm 3
+0
+0
+<part> attributes 10
+AttDBVersion 10 8
+0 3 0 50 53
+1 2 3
+0 
+9 Smoothing
+0 
+0 0 1
+0
+0
+1 1
+0 
+2
+1 2 7
+0 
+16 EnforceGradation
+0 
+0 0 1
+0
+0
+1 1
+0 
+0
+1 2 53
+0 
+15 SurfaceMeshType
+0 
+0 0 1
+0
+0
+1 1
+0 
+3
+1 2 25
+0 
+9 Smoothing
+0 
+0 0 1
+0
+0
+1 1
+0 
+2
+1 2 26
+0 
+13 SmoothingType
+0 
+0 0 1
+0
+0
+1 1
+0 
+0
+1 2 27
+0 
+12 Optimization
+0 
+0 0 1
+0
+0
+1 1
+0 
+1
+1 2 28
+0 
+16 FixIntersections
+0 
+0 0 1
+0
+0
+1 1
+0 
+1
+1 2 29
+0 
+16 EnforceGradation
+0 
+0 0 1
+0
+0
+1 1
+0 
+0
+1 3 30
+0 
+17 FaceRotationLimit
+0 
+0 0 1
+0
+0
+2 1
+0 
+15
+1 2 31
+0 
+12 DiscreteSnap
+0 
+0 0 1
+0
+0
+1 1
+0 
+0
+1 7 23
+0 
+13 SurfaceMesher
+0 
+0 0 1
+0
+7 25 26 27 28 29 30 31
+1 2 41
+0 
+12 Optimization
+0 
+0 0 1
+0
+0
+1 1
+0 
+1
+1 2 4
+0 
+13 SmoothingType
+0 
+0 0 1
+0
+0
+1 1
+0 
+0
+1 2 5
+0 
+12 Optimization
+0 
+0 0 1
+0
+0
+1 1
+0 
+1
+1 2 6
+0 
+16 FixIntersections
+0 
+0 0 1
+0
+0
+1 1
+0 
+1
+1 3 8
+0 
+17 FaceRotationLimit
+0 
+0 0 1
+0
+0
+2 1
+0 
+15
+1 2 9
+0 
+12 DiscreteSnap
+0 
+0 0 1
+0
+0
+1 1
+0 
+0
+1 7 2
+0 
+13 SurfaceMesher
+0 
+0 0 1
+0
+7 3 4 5 6 7 8 9
+1 2 39
+0 
+9 Smoothing
+0 
+0 0 1
+0
+0
+1 1
+0 
+2
+1 2 40
+0 
+13 SmoothingType
+0 
+0 0 1
+0
+0
+1 1
+0 
+0
+1 2 42
+0 
+16 FixIntersections
+0 
+0 0 1
+0
+0
+1 1
+0 
+1
+1 2 43
+0 
+16 EnforceGradation
+0 
+0 0 1
+0
+0
+1 1
+0 
+0
+1 3 44
+0 
+17 FaceRotationLimit
+0 
+0 0 1
+0
+0
+2 1
+0 
+15
+1 2 45
+0 
+12 DiscreteSnap
+0 
+0 0 1
+0
+0
+1 1
+0 
+0
+1 7 38
+0 
+13 SurfaceMesher
+0 
+0 0 1
+0
+7 39 40 41 42 43 44 45
+1 2 15
+0 
+8 ModifyBL
+0 
+0 0 1
+0
+0
+1 1
+0 
+0
+1 2 48
+0 
+9 Smoothing
+0 
+0 0 1
+0
+0
+1 1
+0 
+1
+1 2 36
+0 
+8 ModifyBL
+0 
+0 0 1
+0
+0
+1 1
+0 
+0
+1 2 51
+0 
+8 ModifyBL
+0 
+0 0 1
+0
+0
+1 1
+0 
+0
+1 2 11
+0 
+11 EnforceSize
+0 
+0 0 1
+0
+0
+1 1
+0 
+0
+1 2 18
+0 
+15 SurfaceMeshType
+0 
+0 0 1
+0
+0
+1 1
+0 
+3
+1 10 16
+0 
+9 parasolid
+0 
+0 0 1
+0
+0
+1
+4
+49 file:///fasttmp/hakimm2/pumi-meshes/disk/disk.smd27 model.nonmanifold.parasolid6 # 1 0 0 1 2 13
+0 
+13 SmoothingType
+0 
+0 0 1
+0
+0
+1 1
+0 
+0
+1 2 47
+0 
+11 EnforceSize
+0 
+0 0 1
+0
+0
+1 1
+0 
+0
+1 2 49
+0 
+13 SmoothingType
+0 
+0 0 1
+0
+0
+1 1
+0 
+0
+1 2 50
+0 
+12 Optimization
+0 
+0 0 1
+0
+0
+1 1
+0 
+1
+1 7 46
+0 
+12 VolumeMesher
+0 
+0 0 1
+0
+5 47 48 49 50 51
+1 2 33
+0 
+9 Smoothing
+0 
+0 0 1
+0
+0
+1 1
+0 
+1
+1 2 14
+0 
+12 Optimization
+0 
+0 0 1
+0
+0
+1 1
+0 
+1
+1 2 21
+0 
+12 ElementOrder
+0 
+0 0 1
+0
+0
+1 1
+0 
+2
+1 2 32
+0 
+11 EnforceSize
+0 
+0 0 1
+0
+0
+1 1
+0 
+0
+1 2 34
+0 
+13 SmoothingType
+0 
+0 0 1
+0
+0
+1 1
+0 
+0
+1 2 35
+0 
+12 Optimization
+0 
+0 0 1
+0
+0
+1 1
+0 
+1
+1 7 24
+0 
+12 VolumeMesher
+0 
+0 0 1
+0
+5 32 33 34 35 36
+1 2 12
+0 
+9 Smoothing
+0 
+0 0 1
+0
+0
+1 1
+0 
+1
+1 10 20
+0 
+9 parasolid
+0 
+0 0 1
+0
+0
+1
+4
+49 file:///fasttmp/hakimm2/pumi-meshes/disk/disk.smd27 model.nonmanifold.parasolid6 # 1 0 0 1 2 22
+0 
+15 SurfaceMeshType
+0 
+0 0 1
+0
+0
+1 1
+0 
+1
+1 7 10
+0 
+12 VolumeMesher
+0 
+0 0 1
+0
+5 11 12 13 14 15
+1 2 17
+0 
+12 ElementOrder
+0 
+0 0 1
+0
+0
+1 1
+0 
+2
+1 10 52
+1 *
+9 parasolid
+0 
+0 0 1
+0
+0
+1
+4
+49 file:///fasttmp/hakimm2/pumi-meshes/disk/disk.smd27 model.nonmanifold.parasolid6 # 1 0 0 3 1 1
+12 quads_curved
+7 Meshing
+0 
+5 0 1
+0
+4 2 10 17 18
+16
+2 2
+1
+1
+9 1  1 17
+2
+1
+9 1  1 18
+3 1 19
+11 tris_curved
+7 Meshing
+0 
+5 0 1
+0
+4 23 24 21 22
+20
+2 2
+1
+1
+9 1  1 21
+2
+1
+9 1  1 22
+3 1 37
+5 alaki
+7 Meshing
+0 
+5 0 1
+0
+3 38 46 53
+52
+1 1
+1
+1
+9 1  1 53
+<index>
+3
+smd 8
+auxmm 637
+attributes 656
+</index>
+<header>
+4
+49 file:///fasttmp/hakimm2/pumi-meshes/disk/disk.smd27 model.nonmanifold.parasolid6 # 1 0 0 
+0
+1
+6 native4
+14 ./disk_nat.x_t21 nativeModel.parasolid6 # 1 0 0 
+</header>
+3668 3718                                                                                                                      
