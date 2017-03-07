@@ -27,3 +27,5 @@ LocalPtn 1
 partitionMethod graph
 dwalMigration 0
 buildMapping 1
+printIOtime 1
+writeGeomBCFiles 0
