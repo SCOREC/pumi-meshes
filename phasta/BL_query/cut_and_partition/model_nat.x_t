@@ -1,0 +1,48 @@
+**ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz**************************
+**PARASOLID !"#$%&'()*+,-./:;<=>?@[\]^_`{|}~0123456789**************************
+**PART1;
+MC=unknown;
+MC_MODEL=unknown;
+MC_ID=unknown;
+OS=unknown;
+OS_RELEASE=unknown;
+FRU=sdl_parasolid_customer_support;
+APPL=parasolid_acceptance_tests;
+SITE=unknown;
+USER=unknown;
+FORMAT=text;
+GUISE=transmit;
+KEY=/fasttmp/yangf4/testcase_2017/two_phase_droplet/two_side_mixed_droplet/mesh_regression_test/model_nat.x_t;
+FILE=/fasttmp/yangf4/testcase_2017/two_phase_droplet/two_side_mixed_droplet/mesh_regression_test/model_nat.x_t;
+DATE=unknown;
+**PART2;
+SCH=SCH_2800180_28002;
+USFLD_SIZE=1;
+**PART3;
+**END_OF_HEADER*****************************************************************
+T51 : TRANSMIT FILE created by modeller version 280018023 SCH_2800180_28002_1300
+6200 1 12 30 CCCCCCCCCCCCCDI5 owner1040 0 CCCCCCCCCA13 boundary_mesh1006 0 A16 i
+ndex_map_offset0 0 1 dA9 index_map82 0 A17 node_id_index_map82 0 A20 schema_embe
+dding_map82 0 A5 child12 0 A14 lowest_node_id0 0 1 dZ1 93 2 3 0 0 0 0 1e3 1e-8 0
+ 0 0 1 0 6 1 0 4 0 0 5 0 0 0 0 0 0 0 0 0 0 81 255 1 2 74 6 1 7 0 0 0 0 0 70 11 C
+I9 list_type0 0 1 uI10 notransmit0 0 1 lCCCDCCDI12 finger_index0 0 1 dI12 finger
+_block1012 0 CZ3 0 4 T1 0 0 6 20 1 8 8 0 53 255 4 14 0 9 10 0 0 -0 0 0 1 -1 0 0
+ 0 1 0 0 19 8 CCCCCCCA5 owner12 0 Z5 69 0 1 11 0 12 V0 0 19 11 1 0 1 13 5 14 S0
+ 0 13 255 12 12 0 0 0 0 0 0 5 9 0 14 255 9 11 15 ?0 0 0 14 4 -0 0 0 0 12 0 81 1
+ 15 54 16 9 17 0 0 18 19 0 13 14 3 0 0 20 9 0 0 11 0 0 13 20 34 0 0 0 21 0 0 11
+ 0 0 14 21 36 18 ?0 0 0 20 10 +0 0 0 0 22 0 81 1 18 56 16 21 23 0 15 0 24 0 53 1
+0 42 0 21 0 4 0 -0 0 0 .1 -1 0 0 0 1 0 0 13 22 40 0 0 0 0 0 0 13 21 0 19 13 73 0
+ 1 0 11 22 S0 0 80 255 1 16 0 25 8001 0 0 0 0 3 5 0 0 0 FFFFTFTFFFFFFF2 0 81 1 2
+3 55 26 21 27 18 17 0 28 0 83 255 3 24 .5960784 .6666667 .6862745 0 80 1 26 29 3
+0 8015 0 0 0 0 3 5 0 0 0 FFFFTFFFFFFFFF2 0 81 1 27 51 31 21 0 23 32 0 33 0 81 1
+ 17 53 26 9 32 15 0 23 34 0 83 1 28 0 0 81 1 32 28 31 9 0 17 0 27 35 0 83 1 34 0
+ 0 80 1 31 36 37 9000 1 1 1 1 1 1 1 1 0 FFFFTFTFFFFFFF3 0 84 255 32 35 b0a5ad9a4
+880dad8737e6eb7f1a334800 79 255 15 37 UGS/ObjectState0 84 32 33 11b3a1c50c5d8187
+e4545fc894e563eb0 79 21 30 SDL/TYSA_TRANSLUCENCY0 79 15 25 SDL/TYSA_COLOUR0 83 3
+ 19 .5960784 .6666667 .6862745 0 74 4 CI16 index_map_offset0 0 1 dCCZ20 8 6 0 0
+ 27 38 23 18 7 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 81 2 38 50 39 1 0 7 0 0 40 41 0 8
+1 1 7 57 42 1 38 2 0 0 43 0 80 1 42 31 44 9000 0 0 0 0 3 5 0 0 0 FFTFFFFFFFFFFF1
+ 0 82 255 1 43 129 0 79 24 44 UG2/BODY_COLOR_ATTRIBUTE0 80 2 39 45 46 8004 0 0 0
+ 0 3 5 0 0 0 FFTFFFFFFFFFFF2 3 0 83 1 40 7830.64 0 84 8 41 Kg/Cu M 0 79 16 46 SD
+L/TYSA_DENSITY0 80 1 6 42 47 9000 0 0 0 0 3 6 0 0 0 FFTFTFTTFFFFTF9 0 79 23 47 S
+im_NM_AssemblyModelAtt0 1 0 
