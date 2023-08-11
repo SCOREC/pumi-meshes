@@ -6,12 +6,12 @@ modelFileName ../../geom.smd
 meshFileName ../../mdsMesh/
 outMeshFileName mdsMesh/
 # restartFileName TO BE SPECIFIED 
-writeCGNSFiles 1
+writeCGNSFiles 3
 adaptFlag 0
 phastaIO 1
 AdaptStrategy 7 
 RecursiveUR 0
-splitFactor 1
+splitFactor 2
 elementsPerMigration 100000
 SolutionMigration 0
 DisplacementMigration 0
