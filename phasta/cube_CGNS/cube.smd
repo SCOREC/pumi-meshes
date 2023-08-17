@@ -405,7 +405,7 @@ _sim_empty
 0
 <part> attributes 10
 AttDBVersion 10 8
-0 13 0 503 519
+0 13 0 511 527
 1 2 512
 0 
 16 EnforceGradation
@@ -1316,6 +1316,22 @@ AttDBVersion 10 8
 0
 0
 0
+1 5 527
+0 
+11 destination
+0 
+0 0 1
+0
+0
+4 1
+0 
+1 2 156 1 7 526
+0 
+13 MeshMatchInfo
+0 
+0 0 0
+0
+1 527
 1 3 461
 0 
 8 MeshSize
@@ -2202,6 +2218,17 @@ AttDBVersion 10 8
 2 -1
 0 
 1 4
+1 6 520
+0 
+16 initial pressure
+0 
+0 0 1
+0
+0
+0 3 0
+2 -1
+0 
+2 71
 1 2 157
 0 
 18 MeshRepresentation
@@ -4097,6 +4124,42 @@ AttDBVersion 10 8
 0 0 0
 0
 5 237 238 239 240 241
+1 2 427
+0 
+13 mixedElements
+0 
+0 0 1
+0
+0
+1 1
+0 
+1
+1 2 428
+0 
+6 blends
+0 
+0 0 1
+0
+0
+1 1
+0 
+0
+1 5 432
+0 
+11 destination
+0 
+0 0 1
+0
+0
+4 1
+0 
+1 2 77 1 7 385
+0 
+15 2dBoundaryLayer
+5 Type2
+0 0 0
+0
+6 427 428 429 430 431 432
 1 2 359
 0 
 9 Smoothing
@@ -4144,42 +4207,6 @@ AttDBVersion 10 8
 0 0 1
 0
 8 358 359 360 361 362 363 364 365
-1 2 427
-0 
-13 mixedElements
-0 
-0 0 1
-0
-0
-1 1
-0 
-1
-1 2 428
-0 
-6 blends
-0 
-0 0 1
-0
-0
-1 1
-0 
-0
-1 5 432
-0 
-11 destination
-0 
-0 0 1
-0
-0
-4 1
-0 
-1 2 77 1 7 385
-0 
-15 2dBoundaryLayer
-5 Type2
-0 0 0
-0
-6 427 428 429 430 431 432
 1 5 143
 0 
 11 destination
@@ -4196,7 +4223,16 @@ AttDBVersion 10 8
 0 0 1
 0
 4 142 143 144 145
-1 2 4
+1 10 52
+1 *
+6 simple
+0 
+0 0 1
+0
+0
+1
+4
+77 file:///projects/tools/SCOREC-core/core/pumi-meshes/phasta/cube_CGNS/cube.smd24 model.nonmanifold.simple6 # 1 0 0 1 2 4
 0 
 9 Smoothing
 0 
@@ -4243,16 +4279,41 @@ AttDBVersion 10 8
 0 0 1
 0
 8 3 4 5 6 7 8 9 10
-1 10 52
-1 *
-6 simple
+1 8 312
+0 
+11 destination
 0 
 0 0 1
 0
 0
 1
-4
-77 file:///projects/tools/SCOREC-core/core/pumi-meshes/phasta/cube_CGNS/cube.smd24 model.nonmanifold.simple6 # 1 0 0 1 2 12
+4 1
+0 
+1 2 75 1 2 315
+0 
+6 domain
+0 
+0 0 1
+0
+0
+1 1
+0 
+0
+1 7 294
+0 
+9 Extrusion
+0 
+0 0 0
+0
+7 310 311 312 313 314 315 316
+1 7 293
+0 
+13 FaceExtrusion
+0 
+0 0 1
+0
+4 306 307 308 309
+1 2 12
 0 
 11 EnforceSize
 0 
@@ -4289,50 +4350,6 @@ AttDBVersion 10 8
 0 0 1
 0
 5 12 13 14 15 16
-1 7 293
-0 
-13 FaceExtrusion
-0 
-0 0 1
-0
-4 306 307 308 309
-1 8 312
-0 
-11 destination
-0 
-0 0 1
-0
-0
-1
-4 1
-0 
-1 2 75 1 2 315
-0 
-6 domain
-0 
-0 0 1
-0
-0
-1 1
-0 
-0
-1 7 294
-0 
-9 Extrusion
-0 
-0 0 0
-0
-7 310 311 312 313 314 315 316
-1 2 181
-0 
-6 blends
-0 
-0 0 1
-0
-0
-1 1
-0 
-0
 1 3 493
 0 
 8 MeshSize
@@ -4343,9 +4360,9 @@ AttDBVersion 10 8
 2 -1
 0 
 2 70
-1 2 274
+1 2 181
 0 
-11 EnforceSize
+6 blends
 0 
 0 0 1
 0
@@ -4380,6 +4397,26 @@ AttDBVersion 10 8
 0 0 1
 0
 8 475 476 477 478 479 480 481 482
+1 2 274
+0 
+11 EnforceSize
+0 
+0 0 1
+0
+0
+1 1
+0 
+0
+1 2 397
+0 
+11 elementType
+0 
+0 0 1
+0
+0
+1 1
+0 
+1
 1 5 156
 0 
 11 destination
@@ -4396,16 +4433,43 @@ AttDBVersion 10 8
 0 0 1
 0
 2 155 156
-1 2 397
+1 2 525
 0 
-11 elementType
+14 periodic slave
 0 
 0 0 1
 0
 0
 1 1
 0 
-1
+156
+1 2 448
+0 
+12 DiscreteSnap
+0 
+0 0 1
+0
+0
+1 1
+0 
+0
+1 2 95
+0 
+9 Smoothing
+0 
+0 0 1
+0
+0
+1 1
+0 
+2
+1 7 93
+0 
+13 SurfaceMesher
+0 
+0 0 1
+0
+8 94 95 96 97 98 99 100 101
 1 2 339
 0 
 6 blends
@@ -4433,33 +4497,57 @@ AttDBVersion 10 8
 0 0 0
 0
 6 338 339 340 341 342 343
-1 2 95
+1 5 524
 0 
-9 Smoothing
+11 destination
+0 
+0 0 1
+0
+0
+4 1
+0 
+1 2 156 1 7 523
+0 
+13 MeshMatchInfo
+0 
+0 0 1
+0
+1 524
+1 3 500
+0 
+4 size
+9 numLayers
+0 0 1
+0
+0
+2 -1
+0 
+1 1
+1 8 503
+0 
+6 region
+0 
+0 0 1
+0
+0
+0
+1 2 504
+0 
+11 elementType
 0 
 0 0 1
 0
 0
 1 1
 0 
-2
-1 7 93
+0
+1 7 492
 0 
-13 SurfaceMesher
+9 Extrusion
 0 
 0 0 1
 0
-8 94 95 96 97 98 99 100 101
-1 2 448
-0 
-12 DiscreteSnap
-0 
-0 0 1
-0
-0
-1 1
-0 
-0
+7 500 501 502 503 504 505 506
 1 2 81
 0 
 13 SmoothingType
@@ -4517,44 +4605,9 @@ AttDBVersion 10 8
 0 0 1
 0
 8 79 80 81 82 83 84 85 86
-1 3 500
+1 2 444
 0 
-4 size
-9 numLayers
-0 0 1
-0
-0
-2 -1
-0 
-1 1
-1 8 503
-0 
-6 region
-0 
-0 0 1
-0
-0
-0
-1 2 504
-0 
-11 elementType
-0 
-0 0 1
-0
-0
-1 1
-0 
-0
-1 7 492
-0 
-9 Extrusion
-0 
-0 0 1
-0
-7 500 501 502 503 504 505 506
-1 2 117
-0 
-16 findDestinations
+12 Optimization
 0 
 0 0 1
 0
@@ -4562,9 +4615,9 @@ AttDBVersion 10 8
 1 1
 0 
 1
-1 2 444
+1 2 117
 0 
-12 Optimization
+16 findDestinations
 0 
 0 0 1
 0
@@ -4670,7 +4723,7 @@ AttDBVersion 10 8
 0 0 0
 0
 2 400 401
-1 10 208
+1 10 17
 1 *
 6 simple
 0 
@@ -4679,7 +4732,7 @@ AttDBVersion 10 8
 0
 1
 4
-77 file:///projects/tools/SCOREC-core/core/pumi-meshes/phasta/cube_CGNS/cube.smd24 model.nonmanifold.simple6 # 1 0 0 1 10 17
+77 file:///projects/tools/SCOREC-core/core/pumi-meshes/phasta/cube_CGNS/cube.smd24 model.nonmanifold.simple6 # 1 0 0 1 10 208
 1 *
 6 simple
 0 
@@ -4688,16 +4741,16 @@ AttDBVersion 10 8
 0
 1
 4
-77 file:///projects/tools/SCOREC-core/core/pumi-meshes/phasta/cube_CGNS/cube.smd24 model.nonmanifold.simple6 # 1 0 0 1 3 109
+77 file:///projects/tools/SCOREC-core/core/pumi-meshes/phasta/cube_CGNS/cube.smd24 model.nonmanifold.simple6 # 1 0 0 1 2 483
 0 
-8 MeshSize
-8 Absolute
-0 0 0
+11 EnforceSize
+0 
+0 0 1
 0
 0
-2 -1
+1 1
 0 
-5 32.75
+0
 1 6 55
 0 
 7 surf ID
@@ -4709,16 +4762,16 @@ AttDBVersion 10 8
 2 -1
 0 
 1 6
-1 2 483
+1 3 109
 0 
-11 EnforceSize
-0 
-0 0 1
+8 MeshSize
+8 Absolute
+0 0 0
 0
 0
-1 1
+2 -1
 0 
-0
+5 32.75
 1 10 108
 1 *
 6 simple
@@ -4765,16 +4818,6 @@ AttDBVersion 10 8
 0 0 1
 0
 8 441 442 443 444 445 446 447 448
-1 3 380
-0 
-8 MeshSize
-8 Absolute
-0 0 1
-0
-0
-2 -1
-0 
-6 16.375
 1 2 171
 0 
 13 mixedElements
@@ -4822,6 +4865,16 @@ AttDBVersion 10 8
 0 0 1
 0
 5 171 172 173 175 178
+1 3 380
+0 
+8 MeshSize
+8 Absolute
+0 0 1
+0
+0
+2 -1
+0 
+6 16.375
 1 3 408
 0 
 14 relativeHeight
@@ -4839,7 +4892,16 @@ AttDBVersion 10 8
 0 0 0
 0
 5 404 405 406 407 408
-1 10 62
+1 5 403
+0 
+11 destination
+0 
+0 0 1
+0
+0
+4 1
+0 
+1 1 73 1 10 62
 1 *
 6 simple
 0 
@@ -4848,16 +4910,7 @@ AttDBVersion 10 8
 0
 1
 4
-65 file:///projects/tools/SCOREC-core/core/pumi-meshes/cube/cube.smd24 model.nonmanifold.simple6 # 1 0 0 1 5 403
-0 
-11 destination
-0 
-0 0 1
-0
-0
-4 1
-0 
-1 1 73 1 8 435
+65 file:///projects/tools/SCOREC-core/core/pumi-meshes/cube/cube.smd24 model.nonmanifold.simple6 # 1 0 0 1 8 435
 0 
 11 destination
 0 
@@ -4867,14 +4920,7 @@ AttDBVersion 10 8
 1
 4 1
 0 
-1 2 75 1 7 379
-0 
-15 1dBoundaryLayer
-5 Type3
-0 0 0
-0
-2 402 403
-1 2 410
+1 2 75 1 2 410
 0 
 6 blends
 0 
@@ -4884,6 +4930,13 @@ AttDBVersion 10 8
 1 1
 0 
 0
+1 7 379
+0 
+15 1dBoundaryLayer
+5 Type3
+0 0 0
+0
+2 402 403
 1 2 411
 0 
 11 propagation
@@ -4904,6 +4957,26 @@ AttDBVersion 10 8
 1 1
 0 
 1
+1 6 521
+0 
+16 initial velocity
+0 
+0 0 1
+0
+0
+1 3 0
+7 3
+0 
+2
+2 -1
+0 
+1 1
+2 -1
+0 
+1 0
+2 -1
+0 
+1 0
 1 3 412
 0 
 5 first
@@ -5032,6 +5105,16 @@ AttDBVersion 10 8
 1 1
 0 
 0
+1 3 458
+0 
+8 MeshSize
+8 Relative
+0 0 0
+0
+0
+2 -1
+0 
+3 0.5
 1 3 189
 0 
 5 first
@@ -5049,16 +5132,6 @@ AttDBVersion 10 8
 0 0 1
 0
 6 186 187 188 189 190 205
-1 3 458
-0 
-8 MeshSize
-8 Relative
-0 0 0
-0
-0
-2 -1
-0 
-3 0.5
 1 10 133
 1 *
 6 simple
@@ -5068,7 +5141,24 @@ AttDBVersion 10 8
 0
 1
 4
-77 file:///projects/tools/SCOREC-core/core/pumi-meshes/phasta/cube_CGNS/cube.smd24 model.nonmanifold.simple6 # 1 0 0 1 2 47
+77 file:///projects/tools/SCOREC-core/core/pumi-meshes/phasta/cube_CGNS/cube.smd24 model.nonmanifold.simple6 # 1 0 0 1 2 370
+0 
+8 ModifyBL
+0 
+0 0 1
+0
+0
+1 1
+0 
+0
+1 7 305
+0 
+12 VolumeMesher
+0 
+0 0 1
+0
+5 366 367 368 369 370
+1 2 47
 0 
 6 domain
 0 
@@ -5095,23 +5185,6 @@ AttDBVersion 10 8
 0 0 1
 0
 7 42 43 44 45 46 47 48
-1 2 370
-0 
-8 ModifyBL
-0 
-0 0 1
-0
-0
-1 1
-0 
-0
-1 7 305
-0 
-12 VolumeMesher
-0 
-0 0 1
-0
-5 366 367 368 369 370
 1 7 386
 0 
 9 Extrusion
@@ -5140,6 +5213,17 @@ AttDBVersion 10 8
 0 0 1
 0
 5 274 275 276 277 278
+1 6 522
+0 
+19 initial temperature
+0 
+0 0 1
+0
+0
+0 3 0
+2 -1
+0 
+4 0.25
 1 10 53
 1 *
 6 simple
@@ -5185,9 +5269,9 @@ AttDBVersion 10 8
 6 phasta
 0 0 1
 0
-6 55 56 57 58 59 60
+10 55 56 57 58 59 60 520 521 522 525
 53
-6 6
+10 10
 1
 1
 2 81  1 55
@@ -5206,6 +5290,18 @@ AttDBVersion 10 8
 6
 1
 2 156  1 60
+7
+1
+9 1  1 520
+8
+1
+9 1  1 521
+9
+1
+9 1  1 522
+10
+1
+2 1  1 525
 3 1 51
 0 
 6 output
@@ -5278,9 +5374,9 @@ AttDBVersion 10 8
 0 
 9 0 1
 0
-13 140 141 134 135 136 137 138 139 170 179 185 191 197
+14 140 141 134 135 136 137 138 139 170 179 185 191 197 523
 133
-11 11
+12 12
 1
 1
 1 73  1 134
@@ -5314,6 +5410,9 @@ AttDBVersion 10 8
 11
 1
 1 72  1 197
+12
+1
+2 1  1 523
 3 1 207
 10 AllWedgeBL
 7 Meshing
@@ -5455,9 +5554,9 @@ AttDBVersion 10 8
 0 
 9 0 1
 0
-6 462 463 458 459 460 461
+7 462 463 458 459 460 461 526
 457
-4 4
+5 5
 1
 1
 9 1  1 458
@@ -5470,6 +5569,9 @@ AttDBVersion 10 8
 4
 1
 9 1  1 461
+5
+1
+2 1  1 526
 3 1 488
 11 SmallestTet
 7 Meshing
@@ -5504,4 +5606,4 @@ attributes 4828
 14 FromVoxelModel0 
 0
 </header>
-34288 34340                                                                                                                    
+34884 34936                                                                                                                    

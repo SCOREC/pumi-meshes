@@ -740,7 +740,7 @@ advmesh 7608
 </index>
 <header>
 4
-75 file:///projects/tools/SCOREC-core/core/pumi-meshes/cube/cube-8elements.sms9 mesh.full6 # 1 0 0 
+87 file:///projects/tools/SCOREC-core/core/pumi-meshes/phasta/cube_CGNS/cube-8elements.sms9 mesh.full6 # 1 0 0 
 0
 1
 5 model4
