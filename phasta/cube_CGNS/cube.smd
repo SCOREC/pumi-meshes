@@ -405,7 +405,7 @@ _sim_empty
 0
 <part> attributes 10
 AttDBVersion 10 8
-0 13 0 511 527
+0 14 0 558 640
 1 2 512
 0 
 16 EnforceGradation
@@ -578,6 +578,16 @@ AttDBVersion 10 8
 1 1
 0 
 1
+1 2 613
+0 
+12 DiscreteSnap
+0 
+0 0 1
+0
+0
+1 1
+0 
+0
 1 2 97
 0 
 12 Optimization
@@ -588,6 +598,17 @@ AttDBVersion 10 8
 1 1
 0 
 1
+1 8 574
+0 
+7 heights
+0 
+0 0 1
+0
+0
+1
+2 -1
+0 
+6 16.375
 1 3 190
 0 
 14 relativeHeight
@@ -970,6 +991,16 @@ AttDBVersion 10 8
 1 1
 0 
 1
+1 2 618
+0 
+8 ModifyBL
+0 
+0 0 1
+0
+0
+1 1
+0 
+0
 1 3 163
 0 
 17 FaceRotationLimit
@@ -1056,6 +1087,16 @@ AttDBVersion 10 8
 0 0 0
 0
 6 260 261 262 263 264 265
+1 2 583
+0 
+11 propagation
+0 
+0 0 1
+0
+0
+1 1
+0 
+0
 1 2 311
 0 
 16 findDestinations
@@ -1066,7 +1107,17 @@ AttDBVersion 10 8
 1 1
 0 
 1
-1 2 442
+1 8 630
+0 
+11 destination
+0 
+0 0 1
+0
+0
+1
+4 1
+0 
+1 2 156 1 2 442
 0 
 9 Smoothing
 0 
@@ -1361,6 +1412,16 @@ AttDBVersion 10 8
 1 1
 0 
 1
+1 3 628
+0 
+4 size
+9 numLayers
+0 0 1
+0
+0
+2 -1
+0 
+1 2
 1 2 439
 0 
 10 maintainBL
@@ -1798,7 +1859,16 @@ AttDBVersion 10 8
 0 0 1
 0
 6 198 199 200 201 202 204
-1 3 310
+1 5 586
+0 
+11 destination
+0 
+0 0 1
+0
+0
+4 1
+0 
+1 2 1 1 3 310
 0 
 4 size
 9 numLayers
@@ -1853,6 +1923,16 @@ AttDBVersion 10 8
 0 0 1
 0
 4 37 38 39 40
+1 2 582
+0 
+6 blends
+0 
+0 0 1
+0
+0
+1 1
+0 
+0
 1 3 139
 0 
 8 MeshSize
@@ -2083,6 +2163,16 @@ AttDBVersion 10 8
 1 1
 0 
 0
+1 3 585
+0 
+14 relativeHeight
+0 
+0 0 1
+0
+0
+2 -1
+0 
+3 0.5
 1 2 363
 0 
 16 EnforceGradation
@@ -2239,6 +2329,16 @@ AttDBVersion 10 8
 1 1
 0 
 0
+1 3 639
+0 
+5 first
+0 
+0 0 1
+0
+0
+2 -1
+0 
+1 1
 1 5 69
 0 
 11 destination
@@ -2306,6 +2406,22 @@ AttDBVersion 10 8
 1 1
 0 
 1
+1 5 575
+0 
+11 destination
+0 
+0 0 1
+0
+0
+4 1
+0 
+1 1 73 1 7 551
+0 
+15 1dBoundaryLayer
+5 Type3
+0 0 0
+0
+2 574 575
 1 2 145
 0 
 11 elementType
@@ -2316,7 +2432,17 @@ AttDBVersion 10 8
 1 1
 0 
 0
-1 2 8
+1 8 631
+0 
+6 region
+0 
+0 0 1
+0
+0
+1
+4 1
+0 
+1 3 91 1 2 8
 0 
 16 EnforceGradation
 0 
@@ -2389,6 +2515,23 @@ AttDBVersion 10 8
 0 0 0
 0
 7 226 227 228 229 230 231 232
+1 3 640
+0 
+14 relativeHeight
+0 
+0 0 1
+0
+0
+2 -1
+0 
+3 0.5
+1 7 638
+0 
+15 1dBoundaryLayer
+5 Type2
+0 0 1
+0
+2 639 640
 1 2 438
 0 
 6 domain
@@ -2487,6 +2630,53 @@ AttDBVersion 10 8
 2 1
 0 
 15
+1 2 629
+0 
+16 findDestinations
+0 
+0 0 1
+0
+0
+1 1
+0 
+1
+1 2 632
+0 
+11 elementType
+0 
+0 0 1
+0
+0
+1 1
+0 
+1
+1 2 633
+0 
+6 domain
+0 
+0 0 1
+0
+0
+1 1
+0 
+0
+1 2 634
+0 
+10 maintainBL
+0 
+0 0 1
+0
+0
+1 1
+0 
+0
+1 7 627
+0 
+9 Extrusion
+0 
+0 0 1
+0
+7 628 629 630 631 632 633 634
 1 2 104
 0 
 9 Smoothing
@@ -2507,6 +2697,16 @@ AttDBVersion 10 8
 1 1
 0 
 0
+1 2 608
+0 
+13 SmoothingType
+0 
+0 0 1
+0
+0
+1 1
+0 
+0
 1 8 235
 0 
 7 heights
@@ -2518,6 +2718,16 @@ AttDBVersion 10 8
 2 -1
 0 
 6 16.375
+1 3 637
+0 
+14 relativeHeight
+0 
+0 0 1
+0
+0
+2 -1
+0 
+3 0.5
 1 3 325
 0 
 14 relativeHeight
@@ -2633,6 +2843,16 @@ AttDBVersion 10 8
 0 0 0
 0
 6 254 255 256 257 258 259
+1 2 614
+0 
+11 EnforceSize
+0 
+0 0 1
+0
+0
+1 1
+0 
+0
 1 2 445
 0 
 16 FixIntersections
@@ -2859,6 +3079,73 @@ AttDBVersion 10 8
 1 1
 0 
 0
+1 2 606
+0 
+18 MeshRepresentation
+0 
+0 0 1
+0
+0
+1 1
+0 
+0
+1 2 607
+0 
+9 Smoothing
+0 
+0 0 1
+0
+0
+1 1
+0 
+2
+1 2 609
+0 
+12 Optimization
+0 
+0 0 1
+0
+0
+1 1
+0 
+1
+1 2 610
+0 
+16 FixIntersections
+0 
+0 0 1
+0
+0
+1 1
+0 
+1
+1 2 611
+0 
+16 EnforceGradation
+0 
+0 0 1
+0
+0
+1 1
+0 
+0
+1 3 612
+0 
+17 FaceRotationLimit
+0 
+0 0 1
+0
+0
+2 1
+0 
+15
+1 7 559
+0 
+13 SurfaceMesher
+0 
+0 0 1
+0
+8 606 607 608 609 610 611 612 613
 1 2 186
 0 
 13 mixedElements
@@ -3465,7 +3752,17 @@ AttDBVersion 10 8
 0
 4 1
 0 
-1 2 1 1 5 224
+1 2 1 1 2 615
+0 
+9 Smoothing
+0 
+0 0 1
+0
+0
+1 1
+0 
+1
+1 5 224
 0 
 4 face
 0 
@@ -4033,6 +4330,16 @@ AttDBVersion 10 8
 0 0 1
 0
 8 157 158 159 160 161 162 163 164
+1 2 616
+0 
+13 SmoothingType
+0 
+0 0 1
+0
+0
+1 1
+0 
+0
 1 2 446
 0 
 16 EnforceGradation
@@ -4117,6 +4424,23 @@ AttDBVersion 10 8
 0 0 1
 0
 8 350 351 352 353 354 355 356 357
+1 2 617
+0 
+12 Optimization
+0 
+0 0 1
+0
+0
+1 1
+0 
+1
+1 7 560
+0 
+12 VolumeMesher
+0 
+0 0 1
+0
+5 614 615 616 617 618
 1 7 215
 0 
 13 BoundaryLayer
@@ -4370,6 +4694,59 @@ AttDBVersion 10 8
 1 1
 0 
 0
+1 2 581
+0 
+13 mixedElements
+0 
+0 0 1
+0
+0
+1 1
+0 
+0
+1 3 584
+0 
+5 first
+0 
+0 0 1
+0
+0
+2 -1
+0 
+1 1
+1 7 554
+0 
+15 2dBoundaryLayer
+5 Type2
+0 0 1
+0
+6 581 582 583 584 585 586
+1 5 605
+0 
+11 destination
+0 
+0 0 1
+0
+0
+4 1
+0 
+1 2 156 1 7 558
+0 
+13 MeshMatchInfo
+0 
+0 0 0
+0
+1 605
+1 3 636
+0 
+5 first
+0 
+0 0 1
+0
+0
+2 -1
+0 
+1 1
 1 2 475
 0 
 18 MeshRepresentation
@@ -4513,6 +4890,33 @@ AttDBVersion 10 8
 0 0 1
 0
 1 524
+1 8 572
+0 
+7 heights
+0 
+0 0 1
+0
+0
+1
+2 -1
+0 
+6 16.375
+1 5 573
+0 
+11 destination
+0 
+0 0 1
+0
+0
+4 1
+0 
+1 1 73 1 7 550
+0 
+15 1dBoundaryLayer
+5 Type3
+0 0 0
+0
+2 572 573
 1 3 500
 0 
 4 size
@@ -5011,7 +5415,16 @@ AttDBVersion 10 8
 0 0 0
 0
 7 393 394 395 396 397 398 399
-1 6 59
+1 10 544
+1 *
+6 simple
+0 
+0 0 1
+0
+0
+1
+4
+77 file:///projects/tools/SCOREC-core/core/pumi-meshes/phasta/cube_CGNS/cube.smd24 model.nonmanifold.simple6 # 1 0 0 1 6 59
 0 
 7 surf ID
 0 
@@ -5105,6 +5518,16 @@ AttDBVersion 10 8
 1 1
 0 
 0
+1 3 552
+0 
+8 MeshSize
+8 Absolute
+0 0 1
+0
+0
+2 -1
+0 
+6 16.375
 1 3 458
 0 
 8 MeshSize
@@ -5132,6 +5555,13 @@ AttDBVersion 10 8
 0 0 1
 0
 6 186 187 188 189 190 205
+1 7 635
+0 
+15 1dBoundaryLayer
+5 Type2
+0 0 1
+0
+2 636 637
 1 10 133
 1 *
 6 simple
@@ -5192,7 +5622,16 @@ AttDBVersion 10 8
 0 0 1
 0
 8 433 434 435 436 437 438 439 440
-1 7 463
+1 10 546
+1 *
+6 simple
+0 
+0 0 1
+0
+0
+1
+4
+77 file:///projects/tools/SCOREC-core/core/pumi-meshes/phasta/cube_CGNS/cube.smd24 model.nonmanifold.simple6 # 1 0 0 1 7 463
 0 
 12 VolumeMesher
 0 
@@ -5593,6 +6032,39 @@ AttDBVersion 10 8
 4
 1
 9 1  1 493
+3 1 545
+18 WedgeTriWallExtruZ
+7 Meshing
+0 
+9 0 1
+0
+10 559 560 550 551 552 554 558 627 635 638
+546
+8 16
+4
+1
+0 16  1 550
+5
+1
+0 138  1 551
+6
+1
+9 1  1 552
+8
+1
+1 7  1 554
+12
+1
+2 1  1 558
+14
+1
+2 1  1 627
+15
+1
+0 16  1 635
+16
+1
+0 18  1 638
 <index>
 3
 smd 8
@@ -5606,4 +6078,4 @@ attributes 4828
 14 FromVoxelModel0 
 0
 </header>
-34884 34936                                                                                                                    
+37776 37828                                                                                                                    
