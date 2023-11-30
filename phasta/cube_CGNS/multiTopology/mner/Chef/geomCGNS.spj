@@ -1,0 +1,16 @@
+#
+# Surface ID at bump surface
+surf ID: 1 2 3
+# Surface ID at inflow surface
+surf ID: 2 2 6
+surf ID: 3 2 5
+surf ID: 4 2 4
+surf ID: 5 2 2
+surf ID: 0 2 1
+#
+# Initial pressure
+initial pressure: 0 3 71
+#
+# Initial velocity
+initial velocity: 0 3 1 0 0 
+initial temperature: 0 3 0.25

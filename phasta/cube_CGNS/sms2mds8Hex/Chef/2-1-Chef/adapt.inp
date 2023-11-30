@@ -1,0 +1,27 @@
+timeStepNumber 0 
+ensa_dof 5
+attributeFileName ../../geom.smd
+modelFileName ../../geom.smd
+#modelFileName ../simMeshToMdsMesh/geom.xmt_txt
+meshFileName ../../mdsMesh/
+outMeshFileName mdsMesh/
+# restartFileName TO BE SPECIFIED 
+writeCGNSFiles 3
+adaptFlag 0
+phastaIO 1
+AdaptStrategy 7 
+RecursiveUR 0
+splitFactor 2
+elementsPerMigration 100000
+SolutionMigration 0
+DisplacementMigration 0
+Tetrahedronize 0
+partitionMethod graph
+preAdaptBalanceMethod none
+midAdaptBalanceMethod none
+prePhastaBalanceMethod none
+# ParmaPtn = {0:off,1:on}
+#ParmaPtn 0
+dwalMigration 0
+buildMapping 1
+#formElementGraph 0
