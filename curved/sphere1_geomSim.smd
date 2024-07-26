@@ -1,0 +1,222 @@
+smi 5 0
+<part> smd 33
+simple 33 1
+*
+-1
+-0.5 -0.5 -0.5
+0.5 0.5 0.5
+1 1007 9 0
+0 0 0 0
+-0.5 -0.5 -0.5
+0.5 0.5 0.5
+_sim_empty
+-1
+0 0 0 0
+
+0
+1 1 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+6
+2 2 9 0 203 0
+0 0
+
+  0 0
+
+0
+_sim_empty
+-1
+0 0 0 0 0 0
+0
+1 3
+0 0 0
+1 0 0
+0 1 0
+0 0 1
+0.5 0 0 6.2831853071795862
+1 8 5 1
+2 0 5 3 9 0 205 0 1 
+1 
+0
+0
+_sim_empty
+-1
+0 -1
+3 8 6 1
+2 1 6 3 8 0 303 0 1 
+3 
+0
+0
+_sim_empty
+-1
+0
+0 -1
+0 -1
+0 -1
+0 -1
+0 -1
+<part> auxmm 3
+0
+0
+<part> attributes 10
+AttDBVersion 10 8
+0 1 0 14 15
+1 2 7
+0 
+16 EnforceGradation
+0 
+0 0 1
+0
+0
+1 1
+0 
+0
+1 2 3
+0 
+9 Smoothing
+0 
+0 0 1
+0
+0
+1 1
+0 
+2
+1 2 4
+0 
+13 SmoothingType
+0 
+0 0 1
+0
+0
+1 1
+0 
+0
+1 2 5
+0 
+12 Optimization
+0 
+0 0 1
+0
+0
+1 1
+0 
+1
+1 2 6
+0 
+16 FixIntersections
+0 
+0 0 1
+0
+0
+1 1
+0 
+1
+1 3 8
+0 
+17 FaceRotationLimit
+0 
+0 0 1
+0
+0
+2 1
+0 
+15
+1 7 2
+0 
+13 SurfaceMesher
+0 
+0 0 1
+0
+6 3 4 5 6 7 8
+1 3 15
+0 
+8 MeshSize
+8 Absolute
+0 0 1
+0
+0
+2 -1
+0 
+3 0.2
+1 2 11
+0 
+9 Smoothing
+0 
+0 0 1
+0
+0
+1 1
+0 
+1
+1 2 10
+0 
+11 EnforceSize
+0 
+0 0 1
+0
+0
+1 1
+0 
+1
+1 2 12
+0 
+13 SmoothingType
+0 
+0 0 1
+0
+0
+1 1
+0 
+0
+1 2 13
+0 
+12 Optimization
+0 
+0 0 1
+0
+0
+1 1
+0 
+1
+1 7 9
+0 
+12 VolumeMesher
+0 
+0 0 1
+0
+4 10 11 12 13
+1 10 14
+0 
+9 parasolid
+0 
+0 0 1
+0
+0
+1
+4
+70 file:///lore/cwsmith/geometries/pumi-meshes/curved/sphere1_geomSim.smd24 model.nonmanifold.simple6 # 1 0 0 3 1 1
+11 Mesh case 1
+7 Meshing
+0 
+3 0 1
+0
+3 2 9 15
+14
+1 1
+1
+1
+9 1  1 15
+<index>
+3
+smd 8
+auxmm 414
+attributes 433
+</index>
+<header>
+4
+70 file:///lore/cwsmith/geometries/pumi-meshes/curved/sphere1_geomSim.smd24 model.nonmanifold.simple6 # 1 0 0 
+0
+0
+</header>
+1344 1394                                                                                                                      
